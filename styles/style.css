@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&family=Poppins:wght@100&family=Roboto:wght@500&display=swap');
+
+header {
+    width: 100%;
+    height: 89px;
+    background: #404EED;
+
+    display: flex;
+    align-items: center;
+}
+
+header section, footer section, .last-orders {
+    width: 1340.98px;
+    margin: 0 auto;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+main section {
+    width: 670.49px;
+    height: 785px;
+}
+
+.content  article {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px 48px;
+    margin-top: 40px;
+}
+
+.content article p {
+    width: 100%;
+    height: 21px;
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 21px;
+    color: #232323;
+}
+
+.content article:first-child {
+    margin-top: 40px;
+}
+.model, .neck, .material {
+    width: 100px;
+    height: 100px;
+
+    background: #F2F2F2;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 0.5px solid #C4C4C4;
+    border-radius: 50%;
+
+    cursor: pointer;
+}
+
+.selected{
+    background-color: #2e1d1d38;
+}
+
+.t-shirt {
+    background-image: url(../assets/tshirt.png)
+}
+
+.top-tank {
+    background-image: url(../assets/Camiseta.png)
+}
+
+.long {
+    background-image: url(../assets/Mangalonga.png)
+}
+
+.v-neck {
+    background-image: url(../assets/GolaV.png)
+}
+
+.round {
+    background-image: url(../assets/GolaRedonda.png)
+}
+
+.polo {
+    background-image: url(../assets/GolaPolo.png)
+}
+
+.silk {
+    background-image: url(../assets/Seda.png)
+}
+
+.cotton {
+    background-image: url(../assets/Algodão.png)
+}
+
+.polyester {
+    background-image: url(../assets/Poliester.png)
+}
+
+article input {
+    width: 396.27px;
+    height: 40px;
+    border-radius: 10px;
+    font-family: Roboto;
+}
+article input[type="text"] {
+    
+    background: #F2F2F2;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 0 15px;
+}
+
+article .submit {
+    background: #C4C4C4;
+    color: white;
+    text-align: center;
+
+    cursor: default;
+}
+
+article .abled {
+    background: #404EED;
+    cursor: pointer;
+}
+
+.banner {
+    background: #404EED;
+    background-image: url(../assets/ilustração.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+footer {
+    background: #F2F2F2;
+    height: 391px;
+    padding: 20px 0;
+}
+
+footer p {
+    width:  1340.98px;
+
+    font-family: Roboto;
+    font-size: 24px;
+    line-height: 28px;
+    color: #232323;
+}
+
+footer section .last-orders{
+    height: 342px;
+    display: flex;
+    flex-wrap: wrap;
+
+    flex-direction: column;
+    justify-content: space-between;
+
+    gap: 50px;
+    overflow-y: auto;
+}
+
+
+footer section div article{
+    width: 201.69px;
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+
+footer section .card-tshirt {
+    width: 202px;
+    height: 237px;
+    background: #FFFFFF;
+    border-radius: 10px;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+    align-content: center;
+
+    cursor: pointer;
+}
+
+footer section div img {
+    width: 160px;
+    height: 160px;
+    margin-bottom: 10px;
+}
+
+footer h5 {
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #232323;
+}
+
+footer span {
+    font-weight: 700;
+    text-align: center;
+}
+
